@@ -182,7 +182,7 @@ EMAIL_USE_TLS = True
 
 
 SWAGGER_SETTINGS = {
-    'USE_SESSION_AUTH': True,  # Sessiya orqali autentifikatsiya
+    'USE_SESSION_AUTH': True,
     'SECURITY_DEFINITIONS': {
         'Bearer': {
             'type': 'apiKey',
